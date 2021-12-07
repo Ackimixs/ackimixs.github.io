@@ -34,3 +34,23 @@
       50%{background-position:100% 19%}
       100%{background-position:0% 82%}
   }
+
+
+
+h1 {
+    width: 400px;
+    height: 100px;    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+audio {
+    display: none;
+}

@@ -4,9 +4,19 @@
    <meta charset="utf-8">
    <title> index </title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
+   <link href="styles.css" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
  </head>
  <body>
-    <div class="wrapper"><p>DANCE TIME TIME</p></div>
+    <div class="wrapper"><h1>Dansăm în time time</h1>
+      <script>
+         function audio1 () {
+            var audio = new Audio('trei-degete-time-time.mp3');
+            audio.play();
+         }
+         $(document).on("click", audio1);
+      </script>
+   
+   </div>
  </body>
 </html>
