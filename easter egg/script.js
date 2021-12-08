@@ -1,17 +1,8 @@
 function watchTextbox() {
-    var option1 = 'guichet killian';
-    var option2 = 'Guichet Killian';
-    var option3 = 'GUICHET Killian';
-    var option4 = 'GUICHET KILLIAN';
-    var option5 = 'GUICHET killian';
-    var option6 = 'Killian Guichet';
-    var option7 = 'killian guichet';
-    var option8 = 'Killian GUICHET';
-
-
+    const array1 = ['Guichet Killian','guichet killian', 'killian guichet', 'GUICHET Killian', 'GUICHET KILLIAN', 'GUICHET killian', 'Killian Guichet', 'killian guichet', 'Killian GUICHET']
 
     var txtInput = $('#txtInput').val();
-    if (txtInput == option1 || txtInput == option2 || txtInput == option3 || txtInput == option4 || txtInput == option5 || txtInput == option6 || txtInput == option7 || txtInput == option8) {
+    if (array1.includes(txtInput)) {
       console.log('That normally work');
       document.getElementById('Secret').innerHTML = "You can't this is me";   // when it's me it's not me
       document.getElementById("submit").disabled = true;
