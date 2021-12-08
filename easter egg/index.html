@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+   <meta charset="utf-8">
+   <title> index </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="styles.css" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+ </head>
+ <body>
+    <div class="wrapper"><h1>Dansăm în time time<br>
+                              Juste Cick (1 time)
+    </h1>
+      <script>
+         function audio1 () {
+            var audio = new Audio('../music/timetime.wav');
+            audio.play();
+         }
+         $(document).on("click", audio1);
+      </script>
+   
+   </div>
+ </body>
+</html>
