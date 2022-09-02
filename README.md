@@ -1,3 +1,5 @@
 # ackimixs.github.io
 
-website from tp for my school 
+Mon nom est Killian G. en CIR 2  
+Souvent dans la salle avec le babyfoot et la switch  
+Et en vrai askip je suis sympa  
